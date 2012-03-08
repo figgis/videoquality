@@ -1,0 +1,19 @@
+Features
+========
+
+* Print statistics about time-stamps.
+* Using matplotlib, generate nice plots of various aspects
+  of the decoding time.
+* Automatically store the generated plot(s) as png-file(s)
+* Calculate when sync is met.
+* Supports file-globbing
+
+Example (non-graphical) output:
+
+$ ./vq.py  log.txt 
+Reading log.................................................0.020 s False   Sync achieved @ 17 fps
+
+Summary
+-------
+NOK: 1
+OK:  0
